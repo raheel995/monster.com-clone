@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monster | Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-banner">
+        <span class="hiring-text"> Hiring? </span>
+        <span class="postajob-ad-divider"> | </span>
+        <span class="postajob-text"> POST A JOB FOR FREE.</span>
+        <span class="postajob-right-arrow"> &#10140;</span>
+
+        <div class="seeifitworks">
+          <button class="header-banner-close-button" type="button" value="X">
+            X
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="header-main"></div>
+
+    <!--  I was trying to collapse the whole section by clicking on the X, which is located at the top right
+      but it seems I am unable to make it work, I'll be coming back to it for sure,
+      I'll follow the basic technique which is create a Html element and try
+      to style it with css//
+      the script you see below was for that purpose, but i couldn't make it work
+      I copied it from this link
+      https://www.w3schools.com/howto/howto_js_close_list_items.asp
+    <script>
+      var closebtns = document.getElementsByClassName("header-banner-close-button");
+      var i;
+      
+      for (i = 0; i < closebtns.length; i++) {
+        closebtns[i].addEventListener("click", function() {
+          this.parentElement.style.display = 'none';
+        });
+      }
+      </script>
+  
+    -->
+
+    <div class="header-main">
+      <img src="images/logo.png" alt="monster.com logo" class="monster-logo" />
+      <div class="header-main-btns">
+        <button class="header-main-signup-btn">Sign up</button>
+        <button class="header-main-login-btn">Log in</button>
+      </div>
+    </div>
+
+
+  <div class="nav">
+    <span class="a-tag">
+      <a href="" class="first-a-tag"> Find Jobs </a>
+    </span>
+    <a href=""> Salary Tools </a>
+    <a href=""> Career Advice </a>
+    <a href=""> Resume Help </a>
+    <a href=""> Upload Resume </a>
+    <a href="" class="last-a-tag">
+      For Employers <span class="last-a-tag-right-arrow"> &#10140;</span></a
+    >
+  </div>
+
+  <div class="support-for-ukraine-section">
+    <a href="">
+    <b>Support for Ukraine Refugees </b>
+    <span class="support-for-ukraine-span-1"> View Resources </span>
+    <span class="ukrain-support-section-right-arrow"> &#10140;</span>
+  </a>
+    <button class="support-for-ukraine-section-close-button" type="button" value="X">
+      X
+    </button>
+
+  </div>
+
+
+  <div class="mid-section">
+    <div class="mid-section-content">
+    <p class="find-jobs-section"> Find the <span> right </span> fit. </p>
+    <div class="mid-section-inputs">
+    <input class="mid-section-input-1" type="text" placeholder="Search jobs, keywords, companies" >
+    <span class="mid-section-inputs-divider"> | </span>
+    <input class="mid-section-input-2" type="text" placeholder="Enter location">
+    <span class="mid-section-search-icon-span"><img class="mid-section-search-button" src="images/search.svg" alt="">
+    </span>
+  </div>
+  </div>
+  
+  
+  <div class="mid-section-buttons">
+    <p class="mid-section-popular-searches"> Popular Searches </p>
+    
+    <button class="work-from-home-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Work from home
+    </button>
+
+    <button class="part-time-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Part-time
+    </button>
+
+    <button class="administration-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Administration
+    </button>
+
+    <button class="finance-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Finance
+    </button>
+
+    <button class="retail-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Retail
+    </button>
+
+    <button class="IT-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      IT
+    </button>
+
+    <button class="engineering-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Engineering
+    </button>
+
+    <button class="sales-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Sales
+    </button>
+  </br>
+    <button class="manufacturing-button">
+      <img class="search-icon-popular-searches-buttons" src="images/search.svg" alt="">
+      Manufacturing
+    </button>
+
+  </div>
+</div>
+
+
+<div class="mid-section-2">
+  
+  <img class="mid-section-2-image" src="images/grad.webp" alt="">
+
+  <div class="mid-section-2-graduation-help-section">
+    <p> Just graduating? We can help.</p>
+    <a href="" class="mid-section-2-a-tag"> Visit the New Grad hub
+      <button> &#10140; </button> 
+    </a>
+  </br>
+
+    <a href="" class="mid-section-2-a-tag"> Search salories by major
+      <button> &#10140; </button> 
+    </a>
+  </br>
+
+    <a href="" class="mid-section-2-a-tag"> Get a free resume 
+      <button> &#10140; </button> 
+    </a>
+  </br>
+    <a href="" class="mid-section-2-a-tag"> Visit the New Grad hub
+      <button> &#10140; </button> 
+    </a>
+
+  </div>
+</div>
+
+
+<div class="career-advice-section">
+  <p class="career-advice-first-p"> Top Career Advice</p>
+  <p class="career-advice-second-p"> BROWSE ADVICE <button class="career-advice-p-button"> &#10140;</button></p>
+  <div class="div-for-images">
+  <div class="for-image-1"> <img class="image" src="images/Career-Advice-Img-1.webp" alt=""> <p class="highlighted-p-1">Assessments</p> <p>11 awesome free career assessments</p></div>
+  <div class="for-image-2"> <img class="image" src="images/Career-Advice-Img-2.webp" alt=""> <p class="highlighted-p-2">Jobs</p> <p>11 awesome free career assessments</p> </div>
+  <div class="for-image-3"> <img class="image" src="images/Career-Advice-Img-3.webp" alt=""> <p class="highlighted-p-3">Resume</p> <p>11 awesome free career assessments</p> </div>
+  <div class="for-image-4"> <img class="image" src="images/Career-Advice-Img-4.webp" alt=""> <p class="highlighted-p-4">Interview</p> <p>11 awesome free career assessments</p> </div>
+</div>
+
+</div>
+
+<div class="bottom-section">
+  <p class="bottom-section-p1"> Get the app.</p>
+  <p class="bottom-section-p2"> Get the power of monster on-the-go, featuring one touch apply. </p>
+  <img class="appstore-image" src="images/appstore.png" alt="">
+  <img class="googleplay-image" src="images/googleplay.png" alt="">
+  <img class="monster-graphic-image" src="images/monster-app-graphic.webp" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

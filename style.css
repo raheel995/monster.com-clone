@@ -1,0 +1,553 @@
+/* 
+.header-banner{
+background-color: rgb(242, 177, 39);
+font-family: Arial;
+font-weight: 200;
+font-size: 10px;
+padding-top: 0.5px;
+padding-bottom: 0.5px;
+margin-top: -8px;
+}
+*/
+
+.header-banner{
+    background-color: rgb(242, 177, 39);
+    font-family: Arial;
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: -8px;
+    margin-top: -8px;
+    text-align: center;
+
+}
+
+.postajob-ad{
+    text-align: center;
+}
+
+.hiring-text{
+    margin-right: 15px;
+}
+
+.postajob-text{
+    margin-left: 15px;
+}
+
+.postajob-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.postajob-ad-divider{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.postajob-right-arrow{
+    color: rgb(110, 70, 174);
+    font-size: 20px;
+    vertical-align:sub;
+    margin-left: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+.header-banner-close-button{
+    color: rgb(110, 70, 174);
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    font-size: 20px;
+    display: inline;
+    margin-right: 3%;
+    cursor: pointer;
+    
+}
+
+
+.seeifitworks{
+    text-align: right;
+    margin-top: -1.6%;
+    padding-bottom: 8px;
+    
+    
+}
+
+
+.monster-logo{
+    cursor: pointer;
+    width: 10.5%;
+    margin-left: 1.5%;
+    margin-top: 0.7%;
+}
+
+
+.header-main-signup-btn{
+    align-items: center;
+    justify-content: center;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 18px;
+    padding: 7px 12px;
+    border: 2px solid rgb(110, 70, 174);
+    border-radius: 4px;
+    background-color: rgb(110, 70, 174);
+  
+}
+
+.header-main-login-btn{
+    background-color: transparent;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(110, 70, 174);
+    line-height: 18px;
+    text-transform: none;
+    padding: 7px 12px;
+    border: 2px solid rgb(217, 219, 233);
+    border-radius: 4px;
+    margin-right: 2%;
+    margin-left: 7px;
+    
+}
+
+.header-main-btns{
+    text-align: right;
+    margin-top: -3.5%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 4%;
+}
+
+
+.nav{
+    background-color: rgb(244, 237, 237);
+    margin-top: 1.3%;
+    padding: 16px 0px 16px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.nav :hover{
+    text-decoration: underline;
+    color:rgb(110, 70, 174) ;
+}
+
+.first-a-tag{
+    margin-left: 30px;
+}
+
+.last-a-tag{
+    float: right;
+}
+
+.last-a-tag-right-arrow{
+    color: rgb(110, 70, 174);
+    font-size: 20px;
+    font-weight: lighter;
+    vertical-align:sub;
+    margin-left: 2px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.support-for-ukraine-section{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: border;
+    background-color:rgb(234, 225, 225) ;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.support-for-ukraine-section :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ukrain-support-section-right-arrow :hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.support-for-ukraine-section-close-button{
+    float: right;
+    border: none;
+    background-color: transparent;
+    color: rgb(72, 71, 71);
+    font-size: 20px;
+
+}
+
+.support-for-ukraine-section-close-button :hover{
+    text-decoration: none;
+}
+
+.mid-section{
+    background-color: #26163e;
+    min-height: 560px;
+}
+
+.mid-section-inputs{
+    background-color: white;
+    width: 85%;
+    line-height: 86px;
+    border-radius: 6px;
+    padding-top: 10px;
+}
+
+.mid-section-input-1{
+    border: none;
+    width: 40%;
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mid-section-input-2{
+    border: none;
+    background-color: white;
+    padding: 30px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.mid-section-inputs-divider{
+    font-size: 34px;
+    color: #dccaf7;
+}
+
+.mid-section-search-button{
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #945aba;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.mid-section-search-icon-span{
+    position: relative;
+    top: 14px;
+    left: 23px;
+}
+
+.mid-section-search-icon-span :hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+
+}
+
+.find-jobs-section{
+    color: #C1BAEB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+
+}
+
+.find-jobs-section span{
+    color: white;
+}
+
+.mid-section-content{
+    padding-top: 5%;
+    padding-left: 10%;
+   
+}
+
+.mid-section-buttons{
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+.mid-section-popular-searches{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.search-icon-popular-searches-buttons{
+    height: 24px;
+    background-color: transparent;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    filter: invert(45%) sepia(100%) saturate(558%) hue-rotate(135deg) brightness(97%) contrast(100%);
+    stroke-width: 2px;
+}
+
+.mid-section-buttons button{
+    /**
+    height: 50px;
+    width: 210px;
+    **/
+    padding: 8px;
+    background-color: rgb(110, 70, 174);
+    border: 1px solid rgb(110, 70, 174);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin: 2px;
+    border-radius: 4px;
+    align-items: center;
+    padding-bottom: 12px;
+
+}
+
+.mid-section-2{
+    background-color: #402965;
+    min-height: 560px;
+    max-height: 560px;
+    margin-top: -1.6%;
+
+}
+
+
+.mid-section-2-image{
+    height: 395px;
+    width: 592px;
+    position: relative;
+    z-index: 2;
+    top: 60px;
+    left: 10%;
+    filter: grayscale(100%);
+    border-radius: 0px 40px 40px;
+}
+
+.mid-section-2-graduation-help-section{
+    position: relative;
+    left: 60%;
+    top: -330px;
+    font-size: 1.3em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mid-section-2-a-tag{
+    color: white;
+    border: 2px solid #945aba;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 0.8em;
+
+    
+}
+
+.mid-section-2-a-tag button{
+    border: none;
+    background-color: #945aba;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /**
+    font-size: 0.8em;
+    */
+    margin-left: 130px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+.career-advice-section{
+    text-align: center;
+}
+
+.career-advice-first-p{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.career-advice-second-p{
+    font-size: 0.9em;
+    margin-top: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+.career-advice-p-button{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: teal;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+.div-for-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.for-image-1{
+    border: 2px solid white;
+    padding: 5px 5px 60px 5px;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 6px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.highlighted-p-1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.for-image-2{
+    border: 2px solid white;
+    padding: 5px 5px 60px 5px;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.highlighted-p-2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.for-image-3{
+    border: 2px solid white;
+    padding: 5px 5px 60px 5px;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.highlighted-p-3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.for-image-4{
+    border: 2px solid white;
+    padding: 6px 6px 60px 6px;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.highlighted-p-4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    width: 236px;
+    border-radius: 6px;
+}
+
+
+
+.bottom-section{
+    width: 90%;
+    background-color: rgb(61, 36, 98);
+    min-height: 400px;
+    max-height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 4em;
+    border-radius: 0.5em;
+
+}
+
+
+.bottom-section-p1{
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 4em;
+    left: 2em;
+}
+
+.bottom-section-p2{
+    color: white;
+    font-size: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 4em;
+    left: 3em;
+    line-height: 4em;
+    
+}
+
+.appstore-image{
+    width: 230px;
+    position: relative;
+    top: -250px;
+    left: 44px;
+    cursor: pointer;
+}
+
+
+.googleplay-image{
+    height: 87px;
+    position: relative;
+    top: -250px;
+    left: 54px;
+    cursor: pointer;
+}
+
+.monster-graphic-image{
+    width: 50%;
+    position: relative;
+    top: -133px;
+    right: -195px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+
+
+
+
+
+
+
+
+
